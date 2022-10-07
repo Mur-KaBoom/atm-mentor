@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+// eslint-disable-next-line require-jsdoc
 class NumbersValidator {
   /**
    * @param {Number} number number to check
