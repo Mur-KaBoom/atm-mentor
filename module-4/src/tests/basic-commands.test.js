@@ -4,6 +4,7 @@ describe('Module 4: Basic Commands examples', () => {
   });
 
   it('$ command', async () => {
+    console.log("!!!!!!!!!!!!command!!!!!!!!!!!!")
     const baseElement = await $('.specialist-display');
     const childrenElement = await baseElement.$('#Specialist_1');
     // OR
@@ -13,6 +14,7 @@ describe('Module 4: Basic Commands examples', () => {
   });
 
   it('$$ command', async () => {
+    console.log("!!!!!!!!!!!!command-2!!!!!!!!!!!!")
     const baseElement = await $('.specialist-display');
     const childrenElements = await baseElement.$$('#Specialist_item');
     // OR
@@ -22,6 +24,7 @@ describe('Module 4: Basic Commands examples', () => {
   });
 
   it('click command', async () => {
+    console.log("!!!!!!!!!!!!click command!!!!!!!!!!!!")
     // generally clicks the element
     // await $(".specialist-display").click();
     // clicks 20 horizontal pixels away from the center of the element
@@ -33,6 +36,7 @@ describe('Module 4: Basic Commands examples', () => {
   });
 
   it('setValue command', async () => {
+    console.log("!!!!!!!!!!!!setValue command!!!!!!!!!!!!")
     await $('.specialization-types button.e-control').click();
 
     await $('#Name input').setValue('John Doe');
@@ -42,6 +46,7 @@ describe('Module 4: Basic Commands examples', () => {
   });
 
   it('addValue command', async () => {
+    console.log("!!!!!!!!!!!!addValue command!!!!!!!!!!!!")
     await $('.specialization-types button.e-control').click();
 
     await $("input[name='Email']").addValue('test');
