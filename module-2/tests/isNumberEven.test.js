@@ -39,19 +39,67 @@ describe('isNumberEven', function () {
 
   describe('check report Errors if variable is NOT number', function () {
     const parameters = [
-      { description: 'should return error if variable=null is not a number', input: null, result: `Error: [null] is not of type "Number" it is of type "object"` },
-      { description: 'should return error if variable=" " is not a number', input: ' ', result: 'Error: [ ] is not of type "Number" it is of type "string"' },
-      { description: 'should return error if variable="Asd" is not a number', input: 'Asd', result: 'Error: [Asd] is not of type "Number" it is of type "string"' },
-      { description: 'should return error if variable=true is not a number', input: true, result: 'Error: [true] is not of type "Number" it is of type "boolean"' },
-      { description: 'should return error if variable=undefined is not a number', input: undefined, result: 'Error: [undefined] is not of type "Number" it is of type "undefined"' },
+      {
+        description: 'should return error if variable=null is not a number',
+        input: null,
+        result: `Error: [null] is not of type "Number" it is of type "object"`,
+      },
+      {
+        description: 'should return error if variable=" " is not a number',
+        input: ' ',
+        result: 'Error: [ ] is not of type "Number" it is of type "string"',
+      },
+      {
+        description: 'should return error if variable="Asd" is not a number',
+        input: 'Asd',
+        result: 'Error: [Asd] is not of type "Number" it is of type "string"',
+      },
+      {
+        description: 'should return error if variable=true is not a number',
+        input: true,
+        result: 'Error: [true] is not of type "Number" it is of type "boolean"',
+      },
+      {
+        description: 'should return error if variable=undefined is not a number',
+        input: undefined,
+        result: 'Error: [undefined] is not of type "Number" it is of type "undefined"',
+      },
       // { description: 'should return error if variable=NaN is not a number', input: NaN, result: 'Error: [NaN] is not of type "Number" it is of type "string"' },
-      { description: 'should return error if variable={name: "Stas", age: 35} is not a number', input: { name: 'Stas', age: 35 }, result: 'Error: [[object Object]] is not of type "Number" it is of type "object"' },
-      { description: 'should return error if variable=[1,2,3] is not a number', input: [1, 2, 3], result: 'Error: [1,2,3] is not of type "Number" it is of type "object"' },
-      { description: 'should return error if variable= ()=> false is not a number', input: () => false, result: 'Error: [() => false] is not of type "Number" it is of type "function"' },
-      { description: 'should return error if variable=1+"2" is not a number', input: 1 + '2', result: 'Error: [12] is not of type "Number" it is of type "string"' },
-      { description: 'should return error if variable="+" is not a number', input: '+', result: 'Error: [+] is not of type "Number" it is of type "string"' },
-      { description: 'should return error if variable=Symbol is not a number', input: Symbol, result: 'Error: [function Symbol() { [native code] }] is not of type "Number" it is of type "function"' },
-      { description: 'should return error if variable=1+[] is not a number', input: 1 + [], result: 'Error: [1] is not of type "Number" it is of type "string"' },
+      {
+        description: 'should return error if variable={name: "Stas", age: 35} is not a number',
+        input: { name: 'Stas', age: 35 },
+        result: 'Error: [[object Object]] is not of type "Number" it is of type "object"',
+      },
+      {
+        description: 'should return error if variable=[1,2,3] is not a number',
+        input: [1, 2, 3],
+        result: 'Error: [1,2,3] is not of type "Number" it is of type "object"',
+      },
+      {
+        description: 'should return error if variable= ()=> false is not a number',
+        input: () => false,
+        result: 'Error: [() => false] is not of type "Number" it is of type "function"',
+      },
+      {
+        description: 'should return error if variable=1+"2" is not a number',
+        input: 1 + '2',
+        result: 'Error: [12] is not of type "Number" it is of type "string"',
+      },
+      {
+        description: 'should return error if variable="+" is not a number',
+        input: '+',
+        result: 'Error: [+] is not of type "Number" it is of type "string"',
+      },
+      {
+        description: 'should return error if variable=Symbol is not a number',
+        input: Symbol,
+        result: 'Error: [function Symbol() { [native code] }] is not of type "Number" it is of type "function"',
+      },
+      {
+        description: 'should return error if variable=1+[] is not a number',
+        input: 1 + [],
+        result: 'Error: [1] is not of type "Number" it is of type "string"',
+      },
     ];
 
     parameters.forEach(parameter => {

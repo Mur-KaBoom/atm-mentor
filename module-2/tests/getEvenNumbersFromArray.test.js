@@ -24,18 +24,66 @@ describe('getEvenNumbersFromArray', function () {
 
   describe('check report Errors if array is NOT an array of "Numbers"', function () {
     const parameters = [
-      { description: 'should return error if array has null', input: [null, 17, 1, 55], result: `Error: [,17,1,55] is not an array of "Numbers"` },
-      { description: 'should return error if array has " "', input: [' ', 17, 1, 55], result: 'Error: [ ,17,1,55] is not an array of "Numbers"' },
-      { description: 'should return error if array has "Asd"', input: ['Asd', 17, 1, 55], result: 'Error: [Asd,17,1,55] is not an array of "Numbers"', },
-      { description: 'should return error if array has true', input: [true, 17, 1, 55], result: 'Error: [true,17,1,55] is not an array of "Numbers"' },
-      { description: 'should return error if array has undefined', input: [undefined, 17, 1, 55], result: 'Error: [,17,1,55] is not an array of "Numbers"' },
-      { description: 'should return error if array has NaN', input: [NaN, 17, 1, 55], result: 'Error: [NaN,17,1,55] is not an array of "Numbers"' },
-      { description: 'should return error if array has {name: "Stas", age: 35}', input: [{ name: 'Stas', age: 35 }, 17, 1, 55], result: 'Error: [[object Object],17,1,55] is not an array of "Numbers"' },
-      { description: 'should return error if array has ()=> false', input: [() => false, 17, 1, 55], result: 'Error: [() => false,17,1,55] is not an array of "Numbers"' },
-      { description: 'should return error if array has 1+"2"', input: [1 + '2', 17, 1, 55], result: 'Error: [12,17,1,55] is not an array of "Numbers"' },
-      { description: 'should return error if array has "+"', input: ['+', 17, 1, 55], result: 'Error: [+,17,1,55] is not an array of "Numbers"' },
-      { description: 'should return error if array has Symbol', input: [Symbol, 17, 1, 55], result: 'Error: [function Symbol() { [native code] },17,1,55] is not an array of "Numbers"' },
-      { description: 'should return error if array has 1+[]', input: [1 + [], 17, 1, 55], result: 'Error: [1,17,1,55] is not an array of "Numbers"' },
+      {
+        description: 'should return error if array has null',
+        input: [null, 17, 1, 55],
+        result: `Error: [,17,1,55] is not an array of "Numbers"`,
+      },
+      {
+        description: 'should return error if array has " "',
+        input: [' ', 17, 1, 55],
+        result: 'Error: [ ,17,1,55] is not an array of "Numbers"',
+      },
+      {
+        description: 'should return error if array has "Asd"',
+        input: ['Asd', 17, 1, 55],
+        result: 'Error: [Asd,17,1,55] is not an array of "Numbers"',
+      },
+      {
+        description: 'should return error if array has true',
+        input: [true, 17, 1, 55],
+        result: 'Error: [true,17,1,55] is not an array of "Numbers"',
+      },
+      {
+        description: 'should return error if array has undefined',
+        input: [undefined, 17, 1, 55],
+        result: 'Error: [,17,1,55] is not an array of "Numbers"',
+      },
+      {
+        description: 'should return error if array has NaN',
+        input: [NaN, 17, 1, 55],
+        result: 'Error: [NaN,17,1,55] is not an array of "Numbers"',
+      },
+      {
+        description: 'should return error if array has {name: "Stas", age: 35}',
+        input: [{ name: 'Stas', age: 35 }, 17, 1, 55],
+        result: 'Error: [[object Object],17,1,55] is not an array of "Numbers"',
+      },
+      {
+        description: 'should return error if array has ()=> false',
+        input: [() => false, 17, 1, 55],
+        result: 'Error: [() => false,17,1,55] is not an array of "Numbers"',
+      },
+      {
+        description: 'should return error if array has 1+"2"',
+        input: [1 + '2', 17, 1, 55],
+        result: 'Error: [12,17,1,55] is not an array of "Numbers"',
+      },
+      {
+        description: 'should return error if array has "+"',
+        input: ['+', 17, 1, 55],
+        result: 'Error: [+,17,1,55] is not an array of "Numbers"',
+      },
+      {
+        description: 'should return error if array has Symbol',
+        input: [Symbol, 17, 1, 55],
+        result: 'Error: [function Symbol() { [native code] },17,1,55] is not an array of "Numbers"',
+      },
+      {
+        description: 'should return error if array has 1+[]',
+        input: [1 + [], 17, 1, 55],
+        result: 'Error: [1,17,1,55] is not an array of "Numbers"',
+      },
     ];
 
     parameters.forEach(parameter => {
