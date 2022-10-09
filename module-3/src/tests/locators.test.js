@@ -56,16 +56,19 @@ describe('Module 3: WebdriverIO Introduction', () => {
 
   it('Test-5 check all doctors', async () => {
     await browser.url('/showcase/angular/appointmentplanner/#/dashboard');
-    //await $("div[routerLink='/doctors']").waitForClickable() 
+    //await $("div[routerLink='/doctors']").waitForClickable()
     // await $("div[routerLink='/doctors']").click()
     const doctorsButton = await $("div[routerLink='/doctors']");
-    await waitAndClick(doctorsButton) // custom Command
-    
+    await waitAndClick(doctorsButton); // custom Command
+
     async function waitAndClick(element) {
-      await element.waitForClickable()
-      await element.click()
+      await element.waitForClickable();
+      await browser.pause(3000)
+      await element.click();
     }
 
+
+    
     // await $("div[routerLink='/doctors']").click()
     const expectedDoctors = [
       'Dr. Nembo Lukeni',
@@ -86,6 +89,5 @@ describe('Module 3: WebdriverIO Introduction', () => {
     }
 
     await expect(expectedDoctors).toEqual(actualDoctors);
-
   });
 });
