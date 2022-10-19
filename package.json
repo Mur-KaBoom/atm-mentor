@@ -19,7 +19,6 @@
     "@wdio/mocha-framework": "^7.23.0",
     "@wdio/spec-reporter": "^7.23.0",
     "@wdio/types": "^7.23.0",
-    "chromedriver": "^104.0.0",
     "eslint": "8.22.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-google": "^0.14.0",
@@ -32,7 +31,6 @@
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
-    "wdio-chromedriver-service": "^7.3.2",
     "wdio-geckodriver-service": "^3.0.4"
   },
   "workspaces": [
@@ -50,6 +48,8 @@
     "node": ">=16.0.0 < 17.0.0"
   },
   "devDependencies": {
-    "@faker-js/faker": "^7.5.0"
+    "@faker-js/faker": "^7.5.0",
+    "chromedriver": "^106.0.1",
+    "wdio-chromedriver-service": "^8.0.0"
   }
 }

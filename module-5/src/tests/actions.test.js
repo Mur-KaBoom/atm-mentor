@@ -39,7 +39,6 @@ describe('actions', () => {
       },
     ]);
     await browser.releaseActions();
-
     await browser.pause(5000);
   });
 });

@@ -20,7 +20,7 @@ exports.config = {
   // then the current working directory is where your `package.json` resides, so `wdio`
   // will be called from there.
   //
-  specs: ['./**/tests/*.test.js'],
+  specs: ['./**/tests/*.spec.js'],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -121,7 +121,7 @@ exports.config = {
   // Test reporter for stdout.
   // The only one supported by default is 'dot'
   // see also: https://webdriver.io/docs/dot-reporter
-  reporters: [],
+  reporters: ['spec'],
   //
   // Options to be passed to Mocha.
   // See the full list at http://mochajs.org/
@@ -191,6 +191,7 @@ exports.config = {
    * Function to be executed before a test (in Mocha/Jasmine) starts.
    */
   // beforeTest: function (test, context) {
+    
   // },
   /**
    * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
