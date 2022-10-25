@@ -1654,9 +1654,7 @@
     "strip-ansi" "^6.0.0"
 
 "@wdio/logger@^8.0.0-alpha.219":
-  "integrity" "sha512-p1jAM/viND/kAicRvIf2mXGLbQD3B0X9eC4CcpHfw4YUBr9+EMyLgo+CPIe3qJogug/pbhbVKpTuvE+wemv8Mg=="
-  "resolved" "https://registry.npmjs.org/@wdio/logger/-/logger-8.0.0-alpha.412.tgz"
-  "version" "8.0.0-alpha.412"
+  "version" "8.0.0-alpha.412+a2bc7ec67"
   dependencies:
     "chalk" "^4.0.0"
     "loglevel" "^1.6.0"
@@ -3108,20 +3106,15 @@
   "resolved" "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz"
   "version" "1.2.0"
 
-"decamelize@^1.2.0":
-  "integrity" "sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA=="
-  "resolved" "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz"
-  "version" "1.2.0"
+"decamelize@^1.2.0", "decamelize@^5.0.0":
+  "integrity" "sha512-VfxadyCECXgQlkoEAjeghAr5gY3Hf+IKjKb+X8tGVDtveCjN+USwprd2q3QXBR9T1+x2DG0XZF5/w+7HAtSaXA=="
+  "resolved" "https://registry.npmjs.org/decamelize/-/decamelize-5.0.1.tgz"
+  "version" "5.0.1"
 
 "decamelize@^4.0.0":
   "integrity" "sha512-9iE1PgSik9HeIIw2JO94IidnE3eBoQrFJ3w7sFuzSX4DpmZ3v5sZpUiV5Swcf6mQEF+Y0ru8Neo+p+nyh2J+hQ=="
   "resolved" "https://registry.npmjs.org/decamelize/-/decamelize-4.0.0.tgz"
   "version" "4.0.0"
-
-"decamelize@^5.0.0":
-  "integrity" "sha512-VfxadyCECXgQlkoEAjeghAr5gY3Hf+IKjKb+X8tGVDtveCjN+USwprd2q3QXBR9T1+x2DG0XZF5/w+7HAtSaXA=="
-  "resolved" "https://registry.npmjs.org/decamelize/-/decamelize-5.0.1.tgz"
-  "version" "5.0.1"
 
 "decompress-response@^3.3.0":
   "integrity" "sha512-BzRPQuY1ip+qDonAOz42gRm/pg9F768C+npV/4JOsxRC2sq+Rlk+Q4ZCAsOhnIaMrgarILY+RMUIvMmmX1qAEA=="
@@ -7817,14 +7810,7 @@
   dependencies:
     "has-flag" "^3.0.0"
 
-"supports-color@^7.1.0":
-  "integrity" "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="
-  "resolved" "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz"
-  "version" "7.2.0"
-  dependencies:
-    "has-flag" "^4.0.0"
-
-"supports-color@^8.1.1", "supports-color@8.1.1":
+"supports-color@^7.1.0", "supports-color@^8.1.1", "supports-color@8.1.1":
   "integrity" "sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q=="
   "resolved" "https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz"
   "version" "8.1.1"

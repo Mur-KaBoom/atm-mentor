@@ -1,3 +1,8 @@
+const Appointments = require('./common/appointments.component');
+const AppointmentID = require('./common/appointmentID.component');
+
+
+
 const Header = require('./common/header.component');
 const SideMenu = require('./common/sidemenu.component');
 
@@ -11,4 +16,8 @@ module.exports = {
   AddDoctorModal,
   DoctorListHeader,
   SpecialistCard,
+  Appointments,
+  AppointmentID
 };
+
+

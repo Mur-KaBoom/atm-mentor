@@ -9,7 +9,7 @@ describe('Doctors Page Test Suite', () => {
     await expect(browser).toHaveTitle('Appointment Planner - Syncfusion Angular Components Showcase App');
   });
 
-  it('should open modal', async () => {
+  it.only('should open modal', async () => {
     await page('dashboard').sideMenu.item('doctors').click();
     await page('doctors').doctorListHeader.addNewDoctorBtn.click();
     await expect(page('doctors').addDoctorModal.rootEl).toBeDisplayed();
@@ -17,6 +17,8 @@ describe('Doctors Page Test Suite', () => {
 
   it('should add doctor', async () => {
     await page('dashboard').sideMenu.item('doctors').click();
+   
+
     await page('doctors').doctorListHeader.addNewDoctorBtn.click();
     await expect(page('doctors').addDoctorModal.rootEl).toBeDisplayed();
 

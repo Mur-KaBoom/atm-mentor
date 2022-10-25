@@ -1,16 +1,43 @@
-const { expect } = require('chai');
+// const { expect } = require('chai');
+const { page } = require('../po');
+
+
 
 describe('Home Task for Module - 5', () => {
-  // beforeEach(async () => {
-  //   await browser.url('https://ej2.syncfusion.com/react/demos/progress-bar/semi-circular/');
-  // });
+  beforeEach(async () => {
+    await page('dashboard').open();
+  });
+
+
+
+  it.only('Scenario ', async () => {
+    
+   // await expect(page("dashboard").appointmentID(1).nameDouble).toHaveText('Laura')
+
+
+
+await expect( page("dashboard").appointmentID(3).colum('doctorName')).toHaveText('Yara Barros')
+           
+     await expect(page('doctors').specialistCard(8).name).toHaveTextContaining('John Doe');
+  });
+
+
 
   it('Scenario that utilizes execute() command', async () => {
-    await browser.url('/showcase/angular/appointmentplanner/#/dashboard');
+   
 
     await browser.execute(async function () {
-      const doctor = document.querySelector('a[href="#/doctor-details/1"]');
-      doctor.style.border = 'red solid 2px';
+    //  const doctor = document.querySelector('a[href="#/doctor-details/1"]');
+    
+    
+    
+   
+   
+      const doctor =  document.querySelector(page('dashboard').appointmentID(1).item("doctorName"));
+
+
+     
+       doctor.style.border = 'red solid 2px';
       // document.browser.pause(2000)
     });
 

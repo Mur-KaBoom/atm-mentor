@@ -40,7 +40,7 @@ describe('Module 3: WebdriverIO Introduction', () => {
     await $('#PatientMobile').setValue('0509866161');
     await $("//input[contains (@name, 'Email')]").setValue('patient1@mail.com');
     await $("//button[contains(@class, 'e-control e-btn e-lib e-normal e-primary') and (text()='Save')]").click();
-    await expect($("//span[contains(@class, 'patient-name') and (text()='patient 1')]")).toHaveText('patient 1')
+    await expect($("//span[contains(@class, 'patient-name') and (text()='patient 1')]")).toHaveText('patient 1');
   });
 
   it('Test-4 edit appointment', async () => {
