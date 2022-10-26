@@ -1,15 +1,1 @@
-{
-  "total": 2,
-  "items": [
-    {
-      "uid": "261fc0b69708c927a2157b5a71cf35c4",
-      "name": "Checked appointment for Amelia Edwards",
-      "statistic": { "failed": 2, "broken": 0, "skipped": 0, "passed": 0, "unknown": 0, "total": 2 }
-    },
-    {
-      "uid": "70ca93a9c3d9f3498fec75976cb96d60",
-      "name": "All available doctors",
-      "statistic": { "failed": 0, "broken": 0, "skipped": 0, "passed": 2, "unknown": 0, "total": 2 }
-    }
-  ]
-}
+{"total":2,"items":[{"uid":"261fc0b69708c927a2157b5a71cf35c4","name":"Checked appointment for Amelia Edwards","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}},{"uid":"70ca93a9c3d9f3498fec75976cb96d60","name":"All available doctors","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}

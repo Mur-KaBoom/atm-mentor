@@ -18,7 +18,7 @@ describe('Home Task for Module - 5', () => {
     await expect(page('dashboard').appointments.labelTodayskAppointments).toHaveTextContaining("Today's");
 
     await expect(page('dashboard').appointmentID(0).time).toHaveText('10:30 AM');
-    await expect(page('dashboard').appointmentID(0).name).toHaveText('Milka2');
+    await expect(page('dashboard').appointmentID(0).name).toHaveText('Milka');
     await expect(page('dashboard').appointmentID(0).doctorName).toHaveText('Amelia Edwards');
     await expect(page('dashboard').appointmentID(0).symptoms).toHaveText('Swelling or bruising over a bone, Pain in the injured area');
   });
