@@ -20,5 +20,13 @@
     "no-param-reassign": "off",
     "prefer-template": "off"
   },
-  "ignorePatterns": ["/module-9/service/*", "**/coverage", "**/mochawesome-report", "**/artifacts", "**/report", "**/allure-report", "**/allure-results"]
+  "ignorePatterns": [
+    "/module-9/service/*",
+    "**/coverage",
+    "**/mochawesome-report",
+    "**/artifacts",
+    "**/report",
+    "**/allure-report",
+    "**/allure-results"
+  ]
 }
