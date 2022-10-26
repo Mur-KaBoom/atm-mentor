@@ -55,7 +55,7 @@ describe('Module 3: WebdriverIO Introduction', () => {
     ).toHaveText('London');
   });
 
-  it('Test-5 check all doctors', async () => {
+  it.only('Test-5 check all doctors', async () => {
     await browser.url('/showcase/angular/appointmentplanner/#/dashboard');
     //await $("div[routerLink='/doctors']").waitForClickable()
     // await $("div[routerLink='/doctors']").click()

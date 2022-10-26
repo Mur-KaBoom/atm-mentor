@@ -1,0 +1,78 @@
+{
+  "uid": "a375878d98e16175",
+  "name": "Check all available doctors and custom metod waitAndClick()",
+  "fullName": "Home Task for Module - 5.Check all available doctors and custom metod waitAndClick()",
+  "historyId": "6c81e8917c87bbd4b951b242083303b2",
+  "time": { "start": 1666801627306, "stop": 1666801628914, "duration": 1608 },
+  "description": "",
+  "descriptionHtml": "",
+  "status": "broken",
+  "statusMessage": "allureReporter is not defined",
+  "statusTrace": "ReferenceError: allureReporter is not defined\n                    at Context.<anonymous> (C:\\Users\\Stanislav_Nehrii\\Desktop\\js-atm-program\\module-6\\src\\tests\\/homeTask-6.spec.js:28:5)\n                    at Context.executeAsync (C:\\Users\\Stanislav_Nehrii\\Desktop\\js-atm-program\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Stanislav_Nehrii\\Desktop\\js-atm-program\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "broken",
+    "statusMessage": "allureReporter is not defined",
+    "statusTrace": "ReferenceError: allureReporter is not defined\n                    at Context.<anonymous> (C:\\Users\\Stanislav_Nehrii\\Desktop\\js-atm-program\\module-6\\src\\tests\\/homeTask-6.spec.js:28:5)\n                    at Context.executeAsync (C:\\Users\\Stanislav_Nehrii\\Desktop\\js-atm-program\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Stanislav_Nehrii\\Desktop\\js-atm-program\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps": [
+      {
+        "name": "POST /session/:sessionId/url",
+        "time": { "start": 1666801627307, "stop": 1666801628609, "duration": 1302 },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          { "uid": "f90c3f9b6896d3d0", "name": "Request", "source": "f90c3f9b6896d3d0.json", "type": "application/json", "size": 89 }
+        ],
+        "parameters": [],
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "hasContent": true
+      },
+      {
+        "name": "GET /session/:sessionId/screenshot",
+        "time": { "start": 1666801628613, "stop": 1666801628911, "duration": 298 },
+        "status": "passed",
+        "steps": [],
+        "attachments": [
+          { "uid": "694a466dade84345", "name": "Screenshot", "source": "694a466dade84345.png", "type": "image/png", "size": 161105 }
+        ],
+        "parameters": [],
+        "attachmentsCount": 1,
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "hasContent": true
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "attachmentsCount": 2,
+    "shouldDisplayMessage": true,
+    "stepsCount": 2,
+    "hasContent": true
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "framework", "value": "wdio" },
+    { "name": "language", "value": "javascript" },
+    { "name": "thread", "value": "0-0" },
+    { "name": "suite", "value": "Home Task for Module - 5" },
+    { "name": "testClass", "value": "Home Task for Module - 5" },
+    { "name": "testMethod", "value": "Check all available doctors and custom metod waitAndClick()" },
+    { "name": "package", "value": "Home Task for Module - 5" },
+    { "name": "resultFormat", "value": "allure1" }
+  ],
+  "parameters": [{ "name": "browser", "value": "chrome-107.0.5304.63" }],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": { "categories": [], "tags": [] },
+  "source": "a375878d98e16175.json",
+  "parameterValues": ["chrome-107.0.5304.63"]
+}

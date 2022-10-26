@@ -17,7 +17,6 @@ describe('Doctors Page Test Suite', () => {
 
   it('should add doctor', async () => {
     await page('dashboard').sideMenu.item('doctors').click();
-   
 
     await page('doctors').doctorListHeader.addNewDoctorBtn.click();
     await expect(page('doctors').addDoctorModal.rootEl).toBeDisplayed();

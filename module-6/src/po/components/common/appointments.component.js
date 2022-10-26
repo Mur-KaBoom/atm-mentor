@@ -5,23 +5,13 @@ class Appointments extends BaseComponent {
     super('.e-card.grid-container');
   }
 
-
-
-  get linkBookAppointments () {
+  get linkBookAppointments() {
     return this.rootEl.$('.link-text');
   }
 
-  
-  get labelTodayskAppointments () {
+  get labelTodayskAppointments() {
     return this.rootEl.$('.label-text');
   }
-
- 
-
-
 }
 
-
-
 module.exports = Appointments;
-
