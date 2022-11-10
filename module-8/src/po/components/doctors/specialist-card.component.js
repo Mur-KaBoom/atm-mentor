@@ -12,6 +12,21 @@ class SpecialistCardComponent extends BaseComponent {
   get education() {
     return this.rootEl.$('.education');
   }
+
+
+ /**
+   * @param specialistParameter {'name' | 'education'}
+   */
+  async checkSpecialistParameter(specialistParameter) {
+    if (specialistParameter.toLocaleLowerCase() === 'name') {
+      await this.name;
+    } else {
+      await this.education;
+    }
+  }
+
+
+
 }
 
 module.exports = SpecialistCardComponent;

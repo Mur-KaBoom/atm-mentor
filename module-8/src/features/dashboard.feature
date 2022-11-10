@@ -1,9 +1,15 @@
+@Dashboard
 Feature: Dashboard
 
+  @E2Etest
+  @UItest
   Scenario: Dashboard page should have "Appointment Planner - Syncfusion Angular Components Showcase App" title
     When I open "Dashboard" page
     Then Page title should "be equal to" "Appointment Planner - Syncfusion Angular Components Showcase App"
 
+  @SmokeTest
+  @E2Etest
+  @UItest
   Scenario: It should be possible to open a modal window
     When I open "Dashboard" page
     And I click "Doctors" link from the side menu

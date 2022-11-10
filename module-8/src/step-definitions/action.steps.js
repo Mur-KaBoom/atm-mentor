@@ -21,18 +21,21 @@ When('I wait {int} seconds', function (timeToWaitInSeconds) {
   return browser.pause(timeToWaitInSeconds * 1000);
 });
 
+// When(/^I wait (\d+) seconds$/, function(timeToWaitInSeconds) {
+//   return browser.pause(timeToWaitInSeconds * 1000);
+// });
+
+
+
 /**
-  * @param parameter {'name' | 'phone' | 'email' | 'education' | 'designation'}
-  */
+ * @param parameter {'name' | 'phone' | 'email' | 'education' | 'designation'}
+ */
 
 When('I input {string} to doctor {string} in modal window', function (value, parameter) {
-
   return page('doctors').addDoctorModal.input(parameter).setValue(value);
 });
 
 
 
 
-// When(/^I wait (\d+) seconds$/, function(timeToWaitInSeconds) {
-//   return browser.pause(timeToWaitInSeconds * 1000);
-// });
+

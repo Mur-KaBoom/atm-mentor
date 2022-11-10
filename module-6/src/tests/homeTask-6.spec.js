@@ -4,7 +4,7 @@ const allureReporter = require('@wdio/allure-reporter').default;
 // const { expect } = require('chai');
 const { page, getArrayOfSelectors, waitAndClick } = require('../po');
 
-describe('Home Task for Module - 5', () => {
+describe('Home Task for Module - 6', () => {
   beforeEach(async () => {
     await page('dashboard').open();
   });
