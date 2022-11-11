@@ -1,1 +1,126 @@
-{"uid":"4b4757e66a1912dae1a509f688f20b0f","name":"categories","children":[{"name":"Test defects","children":[{"name":"Browsing context has been discarded","children":[{"name":"Scenario that cheked first appointment row ","uid":"618a1aa16d60a2c","parentUid":"a4a5f847e0d0699d9a72596269bb3a07","status":"broken","time":{"start":1667561049856,"stop":1667561085715,"duration":35859},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":["firefox-106.0.3"]}],"uid":"a4a5f847e0d0699d9a72596269bb3a07"},{"name":"Tried to run command without establishing a connection","children":[{"name":"\"before each\" hook for Home Task for Module - 5","uid":"dd8c9b234b0428c7","parentUid":"8d6b24e3ff50dbc0a1736fa77bc71504","status":"broken","time":{"start":1667561085715,"stop":1667561085733,"duration":18},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["firefox-106.0.3"]},{"name":"\"before each\" hook for Home Task for Module - 5","uid":"5378ae5534d6d1d9","parentUid":"8d6b24e3ff50dbc0a1736fa77bc71504","status":"broken","time":{"start":1667562809452,"stop":1667562809472,"duration":20},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":false,"parameters":["firefox-106.0.4"]}],"uid":"8d6b24e3ff50dbc0a1736fa77bc71504"},{"name":"unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=107.0.5304.63)","children":[{"name":"\"before each\" hook for Home Task for Module - 5","uid":"eb886e0d6416682d","parentUid":"6f45102dbeaf1fa6eb1d697546ad06db","status":"broken","time":{"start":1667563118028,"stop":1667563123183,"duration":5155},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":4,"retriesStatusChange":false,"parameters":["chrome-107.0.5304.63"]}],"uid":"6f45102dbeaf1fa6eb1d697546ad06db"},{"name":"Can't call $ on element with selector \".e-card.grid-container\" because element wasn't found","children":[{"name":"Scenario that cheked first appointment row ","uid":"37364d69cb49bca6","parentUid":"d09a399f6d70021438f1ffe44493f084","status":"broken","time":{"start":1667563120176,"stop":1667563133735,"duration":13559},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":["firefox-106.0.4"]}],"uid":"d09a399f6d70021438f1ffe44493f084"},{"name":"Can't call $$ on element with selector \"div.doctor-availability\" because element wasn't found","children":[{"name":"Check all available doctors and custom metod waitAndClick()","uid":"a3c6f17ae01a947b","parentUid":"e77ed1a87f5e8a3b8cf6e1b7b610598d","status":"broken","time":{"start":1667563133737,"stop":1667563144302,"duration":10565},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":false,"parameters":["firefox-106.0.4"]}],"uid":"e77ed1a87f5e8a3b8cf6e1b7b610598d"}],"uid":"bdbf199525818fae7a8651db9eafe741"}]}
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Test defects",
+      "children": [
+        {
+          "name": "Browsing context has been discarded",
+          "children": [
+            {
+              "name": "Scenario that cheked first appointment row ",
+              "uid": "618a1aa16d60a2c",
+              "parentUid": "a4a5f847e0d0699d9a72596269bb3a07",
+              "status": "broken",
+              "time": { "start": 1667561049856, "stop": 1667561085715, "duration": 35859 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": ["firefox-106.0.3"]
+            }
+          ],
+          "uid": "a4a5f847e0d0699d9a72596269bb3a07"
+        },
+        {
+          "name": "Tried to run command without establishing a connection",
+          "children": [
+            {
+              "name": "\"before each\" hook for Home Task for Module - 5",
+              "uid": "dd8c9b234b0428c7",
+              "parentUid": "8d6b24e3ff50dbc0a1736fa77bc71504",
+              "status": "broken",
+              "time": { "start": 1667561085715, "stop": 1667561085733, "duration": 18 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["firefox-106.0.3"]
+            },
+            {
+              "name": "\"before each\" hook for Home Task for Module - 5",
+              "uid": "5378ae5534d6d1d9",
+              "parentUid": "8d6b24e3ff50dbc0a1736fa77bc71504",
+              "status": "broken",
+              "time": { "start": 1667562809452, "stop": 1667562809472, "duration": 20 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 2,
+              "retriesStatusChange": false,
+              "parameters": ["firefox-106.0.4"]
+            }
+          ],
+          "uid": "8d6b24e3ff50dbc0a1736fa77bc71504"
+        },
+        {
+          "name": "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=107.0.5304.63)",
+          "children": [
+            {
+              "name": "\"before each\" hook for Home Task for Module - 5",
+              "uid": "eb886e0d6416682d",
+              "parentUid": "6f45102dbeaf1fa6eb1d697546ad06db",
+              "status": "broken",
+              "time": { "start": 1667563118028, "stop": 1667563123183, "duration": 5155 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 4,
+              "retriesStatusChange": false,
+              "parameters": ["chrome-107.0.5304.63"]
+            }
+          ],
+          "uid": "6f45102dbeaf1fa6eb1d697546ad06db"
+        },
+        {
+          "name": "Can't call $ on element with selector \".e-card.grid-container\" because element wasn't found",
+          "children": [
+            {
+              "name": "Scenario that cheked first appointment row ",
+              "uid": "37364d69cb49bca6",
+              "parentUid": "d09a399f6d70021438f1ffe44493f084",
+              "status": "broken",
+              "time": { "start": 1667563120176, "stop": 1667563133735, "duration": 13559 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 3,
+              "retriesStatusChange": false,
+              "parameters": ["firefox-106.0.4"]
+            }
+          ],
+          "uid": "d09a399f6d70021438f1ffe44493f084"
+        },
+        {
+          "name": "Can't call $$ on element with selector \"div.doctor-availability\" because element wasn't found",
+          "children": [
+            {
+              "name": "Check all available doctors and custom metod waitAndClick()",
+              "uid": "a3c6f17ae01a947b",
+              "parentUid": "e77ed1a87f5e8a3b8cf6e1b7b610598d",
+              "status": "broken",
+              "time": { "start": 1667563133737, "stop": 1667563144302, "duration": 10565 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["firefox-106.0.4"]
+            }
+          ],
+          "uid": "e77ed1a87f5e8a3b8cf6e1b7b610598d"
+        }
+      ],
+      "uid": "bdbf199525818fae7a8651db9eafe741"
+    }
+  ]
+}

@@ -1,1 +1,121 @@
-[{"uid":"6d3c379b5524484d","name":"Check all available doctors and custom metod waitAndClick()","time":{"start":1668086047510,"stop":1668086053619,"duration":6109},"status":"passed","severity":"minor"},{"uid":"e3a59e84baa5370b","name":"Check all available doctors and custom metod waitAndClick()","time":{"start":1668086045195,"stop":1668086052513,"duration":7318},"status":"passed","severity":"minor"},{"uid":"a3c6f17ae01a947b","name":"Check all available doctors and custom metod waitAndClick()","time":{"start":1667563133737,"stop":1667563144302,"duration":10565},"status":"broken","severity":"minor"},{"uid":"4a00b100d895b843","name":"Scenario that cheked first appointment row ","time":{"start":1668086041319,"stop":1668086045194,"duration":3875},"status":"passed","severity":"critical"},{"uid":"840b80238c4c8c9a","name":"Check all available doctors and custom metod waitAndClick()","time":{"start":1667479773190,"stop":1667479779805,"duration":6615},"status":"passed","severity":"minor"},{"uid":"e37f77fde05c9b80","name":"Scenario that cheked first appointment row ","time":{"start":1667562870325,"stop":1667562896728,"duration":26403},"status":"passed","severity":"critical"},{"uid":"7642a4a631276506","name":"Scenario that cheked first appointment row ","time":{"start":1668086387502,"stop":1668086390297,"duration":2795},"status":"passed","severity":"critical"},{"uid":"52aa41109e9cb256","name":"Check all available doctors and custom metod waitAndClick()","time":{"start":1668086390298,"stop":1668086397507,"duration":7209},"status":"passed","severity":"minor"},{"uid":"6be5608ec35af1c6","name":"Scenario that cheked first appointment row ","time":{"start":1668086390466,"stop":1668086393317,"duration":2851},"status":"passed","severity":"critical"},{"uid":"618a1aa16d60a2c","name":"Scenario that cheked first appointment row ","time":{"start":1667561049856,"stop":1667561085715,"duration":35859},"status":"broken","severity":"critical"},{"uid":"5378ae5534d6d1d9","name":"\"before each\" hook for Home Task for Module - 5","time":{"start":1667562809452,"stop":1667562809472,"duration":20},"status":"broken","severity":"normal"},{"uid":"eb886e0d6416682d","name":"\"before each\" hook for Home Task for Module - 5","time":{"start":1667563118028,"stop":1667563123183,"duration":5155},"status":"broken","severity":"normal"},{"uid":"37364d69cb49bca6","name":"Scenario that cheked first appointment row ","time":{"start":1667563120176,"stop":1667563133735,"duration":13559},"status":"broken","severity":"critical"},{"uid":"dd8c9b234b0428c7","name":"\"before each\" hook for Home Task for Module - 5","time":{"start":1667561085715,"stop":1667561085733,"duration":18},"status":"broken","severity":"normal"},{"uid":"8e8205c4af66094f","name":"Check all available doctors and custom metod waitAndClick()","time":{"start":1668086393318,"stop":1668086399457,"duration":6139},"status":"passed","severity":"minor"},{"uid":"3dfffe2f269ce496","name":"Scenario that cheked first appointment row ","time":{"start":1668086044628,"stop":1668086047509,"duration":2881},"status":"passed","severity":"critical"},{"uid":"73aef4c5d8585770","name":"Check all available doctors and custom metod waitAndClick()","time":{"start":1667562896729,"stop":1667562904992,"duration":8263},"status":"passed","severity":"minor"}]
+[
+  {
+    "uid": "6d3c379b5524484d",
+    "name": "Check all available doctors and custom metod waitAndClick()",
+    "time": { "start": 1668086047510, "stop": 1668086053619, "duration": 6109 },
+    "status": "passed",
+    "severity": "minor"
+  },
+  {
+    "uid": "e3a59e84baa5370b",
+    "name": "Check all available doctors and custom metod waitAndClick()",
+    "time": { "start": 1668086045195, "stop": 1668086052513, "duration": 7318 },
+    "status": "passed",
+    "severity": "minor"
+  },
+  {
+    "uid": "a3c6f17ae01a947b",
+    "name": "Check all available doctors and custom metod waitAndClick()",
+    "time": { "start": 1667563133737, "stop": 1667563144302, "duration": 10565 },
+    "status": "broken",
+    "severity": "minor"
+  },
+  {
+    "uid": "4a00b100d895b843",
+    "name": "Scenario that cheked first appointment row ",
+    "time": { "start": 1668086041319, "stop": 1668086045194, "duration": 3875 },
+    "status": "passed",
+    "severity": "critical"
+  },
+  {
+    "uid": "840b80238c4c8c9a",
+    "name": "Check all available doctors and custom metod waitAndClick()",
+    "time": { "start": 1667479773190, "stop": 1667479779805, "duration": 6615 },
+    "status": "passed",
+    "severity": "minor"
+  },
+  {
+    "uid": "e37f77fde05c9b80",
+    "name": "Scenario that cheked first appointment row ",
+    "time": { "start": 1667562870325, "stop": 1667562896728, "duration": 26403 },
+    "status": "passed",
+    "severity": "critical"
+  },
+  {
+    "uid": "7642a4a631276506",
+    "name": "Scenario that cheked first appointment row ",
+    "time": { "start": 1668086387502, "stop": 1668086390297, "duration": 2795 },
+    "status": "passed",
+    "severity": "critical"
+  },
+  {
+    "uid": "52aa41109e9cb256",
+    "name": "Check all available doctors and custom metod waitAndClick()",
+    "time": { "start": 1668086390298, "stop": 1668086397507, "duration": 7209 },
+    "status": "passed",
+    "severity": "minor"
+  },
+  {
+    "uid": "6be5608ec35af1c6",
+    "name": "Scenario that cheked first appointment row ",
+    "time": { "start": 1668086390466, "stop": 1668086393317, "duration": 2851 },
+    "status": "passed",
+    "severity": "critical"
+  },
+  {
+    "uid": "618a1aa16d60a2c",
+    "name": "Scenario that cheked first appointment row ",
+    "time": { "start": 1667561049856, "stop": 1667561085715, "duration": 35859 },
+    "status": "broken",
+    "severity": "critical"
+  },
+  {
+    "uid": "5378ae5534d6d1d9",
+    "name": "\"before each\" hook for Home Task for Module - 5",
+    "time": { "start": 1667562809452, "stop": 1667562809472, "duration": 20 },
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "eb886e0d6416682d",
+    "name": "\"before each\" hook for Home Task for Module - 5",
+    "time": { "start": 1667563118028, "stop": 1667563123183, "duration": 5155 },
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "37364d69cb49bca6",
+    "name": "Scenario that cheked first appointment row ",
+    "time": { "start": 1667563120176, "stop": 1667563133735, "duration": 13559 },
+    "status": "broken",
+    "severity": "critical"
+  },
+  {
+    "uid": "dd8c9b234b0428c7",
+    "name": "\"before each\" hook for Home Task for Module - 5",
+    "time": { "start": 1667561085715, "stop": 1667561085733, "duration": 18 },
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "8e8205c4af66094f",
+    "name": "Check all available doctors and custom metod waitAndClick()",
+    "time": { "start": 1668086393318, "stop": 1668086399457, "duration": 6139 },
+    "status": "passed",
+    "severity": "minor"
+  },
+  {
+    "uid": "3dfffe2f269ce496",
+    "name": "Scenario that cheked first appointment row ",
+    "time": { "start": 1668086044628, "stop": 1668086047509, "duration": 2881 },
+    "status": "passed",
+    "severity": "critical"
+  },
+  {
+    "uid": "73aef4c5d8585770",
+    "name": "Check all available doctors and custom metod waitAndClick()",
+    "time": { "start": 1667562896729, "stop": 1667562904992, "duration": 8263 },
+    "status": "passed",
+    "severity": "minor"
+  }
+]

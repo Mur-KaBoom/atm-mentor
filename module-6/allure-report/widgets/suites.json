@@ -1,1 +1,15 @@
-{"total":2,"items":[{"uid":"91610d75a6c42877fd2527f8e1466dbd","name":"Home Task for Module - 5","statistic":{"failed":0,"broken":6,"skipped":0,"passed":7,"unknown":0,"total":13}},{"uid":"6fabd15bcf912c434ea7d68068eb67a2","name":"Home Task for Module - 6","statistic":{"failed":0,"broken":0,"skipped":0,"passed":4,"unknown":0,"total":4}}]}
+{
+  "total": 2,
+  "items": [
+    {
+      "uid": "91610d75a6c42877fd2527f8e1466dbd",
+      "name": "Home Task for Module - 5",
+      "statistic": { "failed": 0, "broken": 6, "skipped": 0, "passed": 7, "unknown": 0, "total": 13 }
+    },
+    {
+      "uid": "6fabd15bcf912c434ea7d68068eb67a2",
+      "name": "Home Task for Module - 6",
+      "statistic": { "failed": 0, "broken": 0, "skipped": 0, "passed": 4, "unknown": 0, "total": 4 }
+    }
+  ]
+}

@@ -13,8 +13,7 @@ class SpecialistCardComponent extends BaseComponent {
     return this.rootEl.$('.education');
   }
 
-
- /**
+  /**
    * @param specialistParameter {'name' | 'education'}
    */
   async checkSpecialistParameter(specialistParameter) {
@@ -24,9 +23,6 @@ class SpecialistCardComponent extends BaseComponent {
       await this.education;
     }
   }
-
-
-
 }
 
 module.exports = SpecialistCardComponent;

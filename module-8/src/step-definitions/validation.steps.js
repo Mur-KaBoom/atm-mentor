@@ -21,7 +21,6 @@ Then(/^modal window should( not)? be displayed$/, async param => {
 //   return compareText(pageTitle, titleText, shouldBeParam, compareParameter);
 // });
 
-
 // /**
 //  * @param parameter {'name' | 'phone' | 'email' | 'education' | 'designation'}
 //  */
@@ -39,4 +38,3 @@ Then('Specialist Card ID={string} should {string} education {string}', async fun
   const specialistParameter = await page('doctors').specialistCard(id).education.getText();
   return compareText(specialistParameter, titleText, shouldBeParam);
 });
-

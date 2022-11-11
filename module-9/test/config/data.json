@@ -1,4 +1,10 @@
 {
-  "title": "my test title",
-  "author": "my test body"
+  "title": "User 1",
+  "car": "VW",
+  "job": "QA",
+  "age": 35,
+  "dreamCar": "Urus",
+  "hobby":[ {"sport": ["bicycle", "gym", "soccer", "running"]}, {"entertainment": ["cinema", "theatre", "stand up"]} ],
+  "author": "STAS"
+  
 }

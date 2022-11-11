@@ -25,8 +25,6 @@ When('I wait {int} seconds', function (timeToWaitInSeconds) {
 //   return browser.pause(timeToWaitInSeconds * 1000);
 // });
 
-
-
 /**
  * @param parameter {'name' | 'phone' | 'email' | 'education' | 'designation'}
  */
@@ -34,8 +32,3 @@ When('I wait {int} seconds', function (timeToWaitInSeconds) {
 When('I input {string} to doctor {string} in modal window', function (value, parameter) {
   return page('doctors').addDoctorModal.input(parameter).setValue(value);
 });
-
-
-
-
-
