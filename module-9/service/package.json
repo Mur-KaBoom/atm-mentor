@@ -5,6 +5,7 @@
   "license": "EPAM Systems",
   "private": true,
   "scripts": {
+    "test": "",
     "start": "babel-node -- src/cli/bin db.json -r routes.json",
     "build": "babel src -d lib",
     "toc": "markdown-toc -i README.md"
