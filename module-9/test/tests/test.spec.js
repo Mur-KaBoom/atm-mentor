@@ -7,10 +7,10 @@ const testData = require('../config/data.json');
 /* eslint-disable */
 describe('API Test Suite', () => {
   let postId;
-  let childProcess; 
+  let childProcess;
 
   before(async () => {
-    childProcess = await spawn('npm.cmd', ['--prefix', './service', 'start'], { detached: false }); 
+    childProcess = await spawn('npm.cmd', ['--prefix', './service', 'start'], { detached: false });
     await setTimeout(10000);
   });
 
