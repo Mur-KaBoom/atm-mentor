@@ -1,14 +1,17 @@
 const { expect } = require('chai');
-const { exec } = require('node:child_process');
+const { spawn } = require('child_process');
+const { setTimeout } = require('timers/promises');
 const { sendRequest } = require('../helpers/api.helper');
 const testData = require('../config/data.json');
 
+/* eslint-disable */
 describe('API Test Suite', () => {
   let postId;
-  let start;
+  let childProcess; 
 
-  before(function () {
-    start = exec('babel-node -- ../../service/src/cli/bin db.json -r routes.json');
+  before(async () => {
+    childProcess = await spawn('npm.cmd', ['--prefix', './service', 'start'], { detached: false }); 
+    await setTimeout(10000);
   });
 
   it('should get() all posts', async () => {
@@ -79,8 +82,7 @@ describe('API Test Suite', () => {
     expect(post.status).to.equal(404);
   });
 
-
   after(function () {
-    start.kill('SIGINT');
+    process.exit(0);
   });
 });
