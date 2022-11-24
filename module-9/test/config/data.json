@@ -4,7 +4,6 @@
   "job": "QA",
   "age": 35,
   "dreamCar": "Urus",
-  "hobby":[ {"sport": ["bicycle", "gym", "soccer", "running"]}, {"entertainment": ["cinema", "theatre", "stand up"]} ],
+  "hobby": [{ "sport": ["bicycle", "gym", "soccer", "running"] }, { "entertainment": ["cinema", "theatre", "stand up"] }],
   "author": "STAS"
-  
 }
